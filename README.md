@@ -1,5 +1,4 @@
-# SQL-Injection
-# With Labs on PortSwigger
+# SQL-Injection With Labs on PortSwigger
 **Carry-out**:
 - OS: Kali linux 2024.2
 - Tools: Burp Suite, VSCode
